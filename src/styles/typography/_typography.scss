@@ -1,0 +1,9 @@
+$font-path: "../fonts/";
+@font-face {
+  font-family: Pacifico;
+  font-style: normal;
+  src:
+    url('#{$font-path}pacifico/pacifico-webfont.woff2') format('woff2'),
+    url('#{$font-path}pacifico/pacifico-webfont.woff') format('woff'),
+    url('#{$font-path}pacifico/pacifico-webfont.ttf') format('truetype');
+}

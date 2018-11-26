@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+
+h1, h3, p {
+  margin: 0;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+button{
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: $darker;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.app-logo {
+  height: 80px;
+}
+
+.app-title {
+  font-size: 1.5em;
+  font-family: 'Pacifico', serif;
+}
+
+.components-wrapper {
+  position: relative;
+  text-align: left;
+  min-height: 250px;
+  padding: 25px 25%;
+  margin: 0 auto;
+  background-color: $lighter;
+}
+
+.control-buttons {
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $darker;
+  button {
+    margin: 0 10px;
+    height: 20px;
+  }
+}
+
+.media-wrapper {
+  text-align: center;
+}
+
+.spinner {
+  position: absolute;
+  top: 0;
+  right: 25%;
+  img {
+    animation: react-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+}
+
+.toggle-box {
+  position: absolute;
+  bottom: 25px;
+  right: 25%;
+  width: 100px;
+  height: 100px;
+  background-color: $darker;
+}
+
+@keyframes react-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

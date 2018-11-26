@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Media Component should render correctly 1`] = `
+<div
+  className="media-wrapper"
+>
+  <audio
+    controls={true}
+  >
+    <source
+      src="test-file-stub"
+      type="audio/mpeg"
+    />
+  </audio>
+</div>
+`;

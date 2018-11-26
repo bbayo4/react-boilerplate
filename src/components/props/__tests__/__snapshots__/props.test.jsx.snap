@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Props Component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Props
+    func={[Function]}
+    list={
+      Array [
+        "A",
+        "B",
+        "C",
+      ]
+    }
+    text="someText"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          BASIC PROPS...
+        </h1>,
+        <p>
+          someText
+        </p>,
+        <br />,
+        <h3>
+          A List!
+        </h3>,
+        <ul>
+          <li>
+            A
+          </li>
+          <li>
+            B
+          </li>
+          <li>
+            C
+          </li>
+        </ul>,
+        <button
+          onClick={[Function]}
+        >
+          Click me to fire off a function from a parent component
+        </button>,
+        <div
+          className="spinner"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "BASIC PROPS...",
+        },
+        "ref": null,
+        "rendered": "BASIC PROPS...",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "someText",
+        },
+        "ref": null,
+        "rendered": "someText",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "A List!",
+        },
+        "ref": null,
+        "rendered": "A List!",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              A
+            </li>,
+            <li>
+              B
+            </li>,
+            <li>
+              C
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A",
+            },
+            "ref": null,
+            "rendered": "A",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "B",
+            },
+            "ref": null,
+            "rendered": "B",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": "C",
+            },
+            "ref": null,
+            "rendered": "C",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Click me to fire off a function from a parent component",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Click me to fire off a function from a parent component",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "spinner",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            BASIC PROPS...
+          </h1>,
+          <p>
+            someText
+          </p>,
+          <br />,
+          <h3>
+            A List!
+          </h3>,
+          <ul>
+            <li>
+              A
+            </li>
+            <li>
+              B
+            </li>
+            <li>
+              C
+            </li>
+          </ul>,
+          <button
+            onClick={[Function]}
+          >
+            Click me to fire off a function from a parent component
+          </button>,
+          <div
+            className="spinner"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "BASIC PROPS...",
+          },
+          "ref": null,
+          "rendered": "BASIC PROPS...",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "someText",
+          },
+          "ref": null,
+          "rendered": "someText",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "A List!",
+          },
+          "ref": null,
+          "rendered": "A List!",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                A
+              </li>,
+              <li>
+                B
+              </li>,
+              <li>
+                C
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A",
+              },
+              "ref": null,
+              "rendered": "A",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "B",
+              },
+              "ref": null,
+              "rendered": "B",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": "C",
+              },
+              "ref": null,
+              "rendered": "C",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Click me to fire off a function from a parent component",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Click me to fire off a function from a parent component",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "spinner",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
